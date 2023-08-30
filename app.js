@@ -41,7 +41,7 @@ app.post("/", function (req, res) {
 
     const options = {
         method: "POST",
-        auth: "aidaoui5:d412b2318b4b866c717aa914b00c0c74-us21"
+        auth: "aidaoui5:d64aa28ae48db5015dc67730d95028d1-us21"
     }
 
     const request = https.request(url, options, function(response) {
@@ -68,5 +68,5 @@ app.listen(process.env.PORT || 3000, function() {
     console.log("Server is running on port 3000.");
 });
 
-//API key: d412b2318b4b866c717aa914b00c0c74-us21
+//API key: d64aa28ae48db5015dc67730d95028d1-us21
 // list id: 2bbc4171ad
