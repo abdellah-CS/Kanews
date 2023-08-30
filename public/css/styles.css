@@ -1,0 +1,98 @@
+html,
+body {
+  height: 100%;
+}
+
+.form-signin {
+  max-width: 480px;
+  padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+form .mb-4 {
+    width: 193px;
+    margin: auto;
+    display: block;
+}
+
+.form-signin form {
+    width: 100%;
+}
+
+.fw-normal {
+    font-weight: 600 !important;
+    width: fit-content;
+    margin: auto;
+}
+
+.form-signin .btn {
+    background-color: #233550;
+    font-weight: 600;
+}
+
+form .btn:hover {
+    background-color: #233550;
+} 
+
+.form-signin .mt-5 {
+    margin-top: 0 !important;
+    margin: auto;
+    width: fit-content;
+}
+
+.top {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.middle {
+    border-radius: 0;
+}
+
+.bottom {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-bottom: 20px;
+}
+
+.success {
+    background-color: #233550 !important;
+}
+
+.fs-2 {
+    font-weight: 600;
+    color: #fff;
+    font-size: 2.5rem !important;
+}
+
+.success p {
+    color: #fff;
+}
+
+.success .btn {
+    width: 185px;
+    margin-top: 40px;
+}
+
+.success .btn:hover {
+    color: #fff;
+    background-color: #ffc107;
+}
+
+@media only screen and (max-width: 580px)
+{
+    .form-signin form {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 386px)
+{
+    h1 {
+        font-size: 22px;
+    }
+}
